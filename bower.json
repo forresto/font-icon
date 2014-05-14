@@ -1,0 +1,26 @@
+{
+  "name": "font-icon",
+  "version": "0.0.0",
+  "homepage": "https://github.com/forresto/font-icon",
+  "description": "HTML custom element for Font Awesome icons via Polymer",
+  "main": "font-icon/font-icon.html",
+  "dependencies": {
+    "polymer": "~0.2.3",
+    "font-awesome": "~4.0.3"
+  },
+  "keywords": [
+    "font",
+    "icon",
+    "polymer",
+    "customelement"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html"
+  ]
+}
