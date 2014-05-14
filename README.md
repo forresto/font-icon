@@ -1,3 +1,12 @@
+# ( ཀ͝ ∧ ཀ͝ )
+
+I ended up going with a different approach: putting `html /deep/ ` in front of all the .fa rules. The font-icon element was too annoying to get it to work in both native and polyfill custom elements.
+
+[font-awesome-shadow.css](https://github.com/noflo/noflo-ui/blob/40dbfd7bdabc92184c5697f0e12ca2397c1b9aa5/css/font-awesome-shadow.css)
+
+    <link rel="stylesheet" href="font-awesome-shadow.css" shim-shadowdom>
+
+
 # `<font-icon>`
 
 `<font-icon>` custom element for [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) via [Polymer](http://www.polymer-project.org/).
